@@ -1,0 +1,343 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vadder
+Z0 !s110 1652017963
+!i10b 1
+!s100 :X;V=LW<13B=3=X2JYC[g3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I^fWBfK?@Rm5ajmZBbb`_K1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dE:/Digital Shit/Computer Arch/CA 2
+w1652001297
+8E:/Digital Shit/Computer Arch/CA 2/adder.v
+FE:/Digital Shit/Computer Arch/CA 2/adder.v
+!i122 60
+Z4 L0 1 3
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1652017963.000000
+!s107 E:/Digital Shit/Computer Arch/CA 2/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Digital Shit/Computer Arch/CA 2/adder.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vALU
+!s110 1652017962
+!i10b 1
+!s100 @I[>j9C<`XD6X3of3`;Gh0
+R1
+I3F6moG5cj7:?[EC^d3UeV1
+R2
+R3
+w1652004727
+8E:/Digital Shit/Computer Arch/CA 2/ALU.v
+FE:/Digital Shit/Computer Arch/CA 2/ALU.v
+!i122 57
+Z9 L0 1 10
+R5
+r1
+!s85 0
+31
+!s108 1652017962.000000
+!s107 E:/Digital Shit/Computer Arch/CA 2/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Digital Shit/Computer Arch/CA 2/ALU.v|
+!i113 1
+R7
+R8
+n@a@l@u
+valu_cu
+Z10 !s110 1652017964
+!i10b 1
+!s100 <l6R3A@k[?iQ^3US0e@0m2
+R1
+I43QAfcY8K?Mh<W>DM`Bde2
+R2
+R3
+w1652009983
+8E:/Digital Shit/Computer Arch/CA 2/alu_cu.v
+FE:/Digital Shit/Computer Arch/CA 2/alu_cu.v
+!i122 65
+L0 1 26
+R5
+r1
+!s85 0
+31
+Z11 !s108 1652017964.000000
+!s107 E:/Digital Shit/Computer Arch/CA 2/alu_cu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Digital Shit/Computer Arch/CA 2/alu_cu.v|
+!i113 1
+R7
+R8
+vControllUnit
+R10
+!i10b 1
+!s100 >ARIl7?E]>;1zDoZfz5dm2
+R1
+I_:l5E0ee@Y9eKkZf3:m]b2
+R2
+R3
+w1652013606
+8E:/Digital Shit/Computer Arch/CA 2/ControllUnit.v
+FE:/Digital Shit/Computer Arch/CA 2/ControllUnit.v
+!i122 66
+L0 1 34
+R5
+r1
+!s85 0
+31
+R11
+!s107 E:/Digital Shit/Computer Arch/CA 2/ControllUnit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Digital Shit/Computer Arch/CA 2/ControllUnit.v|
+!i113 1
+R7
+R8
+n@controll@unit
+vDataMem
+!s110 1652861438
+!i10b 1
+!s100 OiSSoaYh?^[10iKDNhF9S2
+R1
+I7FPH[h@e52Mi2Mh@Wn5=;3
+R2
+R3
+w1652861434
+8E:/Digital Shit/Computer Arch/CA 2/DataMem.v
+FE:/Digital Shit/Computer Arch/CA 2/DataMem.v
+!i122 74
+L0 1 8
+R5
+r1
+!s85 0
+31
+!s108 1652861438.000000
+!s107 E:/Digital Shit/Computer Arch/CA 2/DataMem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Digital Shit/Computer Arch/CA 2/DataMem.v|
+!i113 1
+R7
+R8
+n@data@mem
+vDataPath
+R0
+!i10b 1
+!s100 BccD`nDeeOPU3Khfo[_n:2
+R1
+Ilk0eQCD@_@D=lHGAVY0kE1
+R2
+R3
+w1652015129
+8E:\Digital Shit\Computer Arch\CA 2\DataPath.v
+FE:\Digital Shit\Computer Arch\CA 2\DataPath.v
+!i122 63
+L0 1 58
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:\Digital Shit\Computer Arch\CA 2\DataPath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\Digital Shit\Computer Arch\CA 2\DataPath.v|
+!i113 1
+R7
+R8
+n@data@path
+vInstMem
+R0
+!i10b 1
+!s100 O<fS::HP3ZZ=[O5]][E^M3
+R1
+IWO?6ml_M6afba7kMlVZoR0
+R2
+R3
+w1652012412
+8E:/Digital Shit/Computer Arch/CA 2/InstMem.v
+FE:/Digital Shit/Computer Arch/CA 2/InstMem.v
+!i122 64
+L0 1 7
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/Digital Shit/Computer Arch/CA 2/InstMem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Digital Shit/Computer Arch/CA 2/InstMem.v|
+!i113 1
+R7
+R8
+n@inst@mem
+vMIPS
+Z12 !s110 1652865279
+!i10b 1
+!s100 oJN01CYm1n<H64E;l^gAb0
+R1
+I9P8aoAJ:fC`ozDPhGiI<02
+R2
+R3
+w1652013197
+8MIPS.v
+FMIPS.v
+!i122 76
+R9
+R5
+r1
+!s85 0
+31
+Z13 !s108 1652865279.000000
+!s107 MIPS.v|E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v|
+Z14 !s90 -reportprogress|300|-work|work|-stats=none|E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v|
+!i113 1
+R7
+R8
+n@m@i@p@s
+vRegisterFile
+R0
+!i10b 1
+!s100 S6`@5Mf7^eh:1D8H?j3RB2
+R1
+I21icYJ^khWEE:RlZkai`k0
+R2
+R3
+w1651996698
+8E:/Digital Shit/Computer Arch/CA 2/RegisterFile.v
+FE:/Digital Shit/Computer Arch/CA 2/RegisterFile.v
+!i122 59
+L0 1 18
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/Digital Shit/Computer Arch/CA 2/RegisterFile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Digital Shit/Computer Arch/CA 2/RegisterFile.v|
+!i113 1
+R7
+R8
+n@register@file
+vSE16to32
+R0
+!i10b 1
+!s100 O:P`BL[z?:6M<3b;XB1Y10
+R1
+I02Bn?f4CjYD]DA3mDOoOI2
+R2
+R3
+Z15 w1652001696
+Z16 8E:/Digital Shit/Computer Arch/CA 2/SE.v
+Z17 FE:/Digital Shit/Computer Arch/CA 2/SE.v
+!i122 61
+R4
+R5
+r1
+!s85 0
+31
+R6
+Z18 !s107 E:/Digital Shit/Computer Arch/CA 2/SE.v|
+Z19 !s90 -reportprogress|300|-work|work|-stats=none|E:/Digital Shit/Computer Arch/CA 2/SE.v|
+!i113 1
+R7
+R8
+n@s@e16to32
+vSE26to28
+R0
+!i10b 1
+!s100 F`SgX6KX_l>zYW6f@cIUh0
+R1
+Id][Bb<=QYof7zFhlkPaBF2
+R2
+R3
+R15
+R16
+R17
+!i122 61
+Z20 L0 5 3
+R5
+r1
+!s85 0
+31
+R6
+R18
+R19
+!i113 1
+R7
+R8
+n@s@e26to28
+vshl2_28
+R0
+!i10b 1
+!s100 i6dFVAT]:Z3YRY5;U?81L1
+R1
+IGWYHa[bIf[a<CZWU9CN>R1
+R2
+R3
+Z21 w1652001827
+Z22 8E:/Digital Shit/Computer Arch/CA 2/shl2.v
+Z23 FE:/Digital Shit/Computer Arch/CA 2/shl2.v
+!i122 62
+R4
+R5
+r1
+!s85 0
+31
+R6
+Z24 !s107 E:/Digital Shit/Computer Arch/CA 2/shl2.v|
+Z25 !s90 -reportprogress|300|-work|work|-stats=none|E:/Digital Shit/Computer Arch/CA 2/shl2.v|
+!i113 1
+R7
+R8
+vshl2_32
+R0
+!i10b 1
+!s100 4JmCCeSkJP@;UzCo>>BD61
+R1
+IG`B_?=b5f4Z9>kjkD]KK22
+R2
+R3
+R21
+R22
+R23
+!i122 62
+R20
+R5
+r1
+!s85 0
+31
+R6
+R24
+R25
+!i113 1
+R7
+R8
+vtb_MIPS
+R12
+!i10b 1
+!s100 EDZ1gQVjPQXbPU2R;1e^m0
+R1
+I5n5UnJMl<LTbRRgXfP44l3
+R2
+R3
+w1652865273
+8E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v
+FE:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v
+!i122 76
+L0 4 22
+R5
+r1
+!s85 0
+31
+R13
+Z26 !s107 MIPS.v|E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v|
+R14
+!i113 1
+R7
+R8
+ntb_@m@i@p@s

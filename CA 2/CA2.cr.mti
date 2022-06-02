@@ -1,0 +1,90 @@
+{E:/Digital Shit/Computer Arch/CA 2/SE.v} {1 {vlog -work work -stats=none {E:/Digital Shit/Computer Arch/CA 2/SE.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SE16to32
+-- Compiling module SE26to28
+
+Top level modules:
+	SE16to32
+	SE26to28
+
+} {} {}} {E:/Digital Shit/Computer Arch/CA 2/DataMem.v} {1 {vlog -work work -stats=none {E:/Digital Shit/Computer Arch/CA 2/DataMem.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataMem
+
+Top level modules:
+	DataMem
+
+} {} {}} {E:/Digital Shit/Computer Arch/CA 2/shl2.v} {1 {vlog -work work -stats=none {E:/Digital Shit/Computer Arch/CA 2/shl2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shl2_28
+-- Compiling module shl2_32
+
+Top level modules:
+	shl2_28
+	shl2_32
+
+} {} {}} {E:/Digital Shit/Computer Arch/CA 2/alu_cu.v} {1 {vlog -work work -stats=none {E:/Digital Shit/Computer Arch/CA 2/alu_cu.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu_cu
+
+Top level modules:
+	alu_cu
+
+} {} {}} {E:/Digital Shit/Computer Arch/CA 2/Mips.v} {1 {vlog -work work -stats=none {E:/Digital Shit/Computer Arch/CA 2/Mips.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MIPS
+
+Top level modules:
+	MIPS
+
+} {} {}} {E:/Digital Shit/Computer Arch/CA 2/ALU.v} {1 {vlog -work work -stats=none {E:/Digital Shit/Computer Arch/CA 2/ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {E:/Digital Shit/Computer Arch/CA 2/InstMem.v} {1 {vlog -work work -stats=none {E:/Digital Shit/Computer Arch/CA 2/InstMem.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module InstMem
+
+Top level modules:
+	InstMem
+
+} {} {}} {E:/Digital Shit/Computer Arch/CA 2/ControllUnit.v} {1 {vlog -work work -stats=none {E:/Digital Shit/Computer Arch/CA 2/ControllUnit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ControllUnit
+
+Top level modules:
+	ControllUnit
+
+} {} {}} {E:/Digital Shit/Computer Arch/CA 2/DataPath.v} {1 {vlog -work work -stats=none {E:\Digital Shit\Computer Arch\CA 2\DataPath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPath
+
+Top level modules:
+	DataPath
+
+} {} {}} {E:/Digital Shit/Computer Arch/CA 2/adder.v} {1 {vlog -work work -stats=none {E:/Digital Shit/Computer Arch/CA 2/adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {E:/Digital Shit/Computer Arch/CA 2/RegisterFile.v} {1 {vlog -work work -stats=none {E:/Digital Shit/Computer Arch/CA 2/RegisterFile.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} {E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v} {1 {vlog -work work -stats=none {E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MIPS
+-- Compiling module tb_MIPS
+
+Top level modules:
+	tb_MIPS
+
+} {} {}}

@@ -1,0 +1,117 @@
+vsim -gui work.tb_MIPS
+# vsim -gui work.tb_MIPS 
+# Start time: 13:41:42 on May 18,2022
+# Loading work.tb_MIPS
+# Loading work.MIPS
+# Loading work.DataPath
+# Loading work.InstMem
+# Loading work.RegisterFile
+# Loading work.ALU
+# Loading work.SE16to32
+# Loading work.SE26to28
+# Loading work.DataMem
+# Loading work.adder
+# Loading work.shl2_32
+# Loading work.shl2_28
+# Loading work.ControllUnit
+# Loading work.alu_cu
+add wave -position insertpoint  \
+sim:/tb_MIPS/mips1/dp/inst_mem/Inst
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: arian  Hostname: DESKTOP-77657C4  ProcessID: 16108
+#           Attempting to use alternate WLF file "./wlftara8g2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftara8g2
+add wave -position insertpoint  \
+{sim:/tb_MIPS/mips1/dp/register_file/Registers[3]} \
+{sim:/tb_MIPS/mips1/dp/register_file/Registers[4]}
+add wave -position insertpoint  \
+{sim:/tb_MIPS/mips1/dp/data_mem/mem[2000]} \
+{sim:/tb_MIPS/mips1/dp/data_mem/mem[2001]} \
+{sim:/tb_MIPS/mips1/dp/data_mem/mem[2002]} \
+{sim:/tb_MIPS/mips1/dp/data_mem/mem[2003]} \
+{sim:/tb_MIPS/mips1/dp/data_mem/mem[2004]} \
+{sim:/tb_MIPS/mips1/dp/data_mem/mem[2005]} \
+{sim:/tb_MIPS/mips1/dp/data_mem/mem[2006]} \
+{sim:/tb_MIPS/mips1/dp/data_mem/mem[2007]}
+# (vsim-4077) Logging very large object: /tb_MIPS/mips1/dp/data_mem/mem
+# (vsim-4077) Logging very large object: /tb_MIPS/mips1/dp/data_mem/mem
+# (vsim-4077) Logging very large object: /tb_MIPS/mips1/dp/data_mem/mem
+# (vsim-4077) Logging very large object: /tb_MIPS/mips1/dp/data_mem/mem
+# (vsim-4077) Logging very large object: /tb_MIPS/mips1/dp/data_mem/mem
+# (vsim-4077) Logging very large object: /tb_MIPS/mips1/dp/data_mem/mem
+# (vsim-4077) Logging very large object: /tb_MIPS/mips1/dp/data_mem/mem
+# (vsim-4077) Logging very large object: /tb_MIPS/mips1/dp/data_mem/mem
+run -all
+# Break key hit
+# Break in Module adder at E:/Digital Shit/Computer Arch/CA 2/adder.v line 2
+# Compile of MIPS_TB.v failed with 2 errors.
+# Compile of MIPS_TB.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_MIPS
+# Loading work.MIPS
+run -all
+# ** Note: $stop    : E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v(22)
+#    Time: 500061 ps  Iteration: 0  Instance: /tb_MIPS
+# Break in Module tb_MIPS at E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v line 22
+restart -f
+run -all
+# ** Note: $stop    : E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v(22)
+#    Time: 500061 ps  Iteration: 0  Instance: /tb_MIPS
+# Break in Module tb_MIPS at E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v line 22
+restart -f
+run -all
+# ** Note: $stop    : E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v(22)
+#    Time: 500061 ps  Iteration: 0  Instance: /tb_MIPS
+# Break in Module tb_MIPS at E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v line 22
+add wave -position insertpoint  \
+sim:/tb_MIPS/mips1/dp/inst_mem/address
+restart -f
+run -all
+# ** Note: $stop    : E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v(22)
+#    Time: 500061 ps  Iteration: 0  Instance: /tb_MIPS
+# Break in Module tb_MIPS at E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v line 22
+restart -f
+run -all
+# ** Note: $stop    : E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v(22)
+#    Time: 500061 ps  Iteration: 0  Instance: /tb_MIPS
+# Break in Module tb_MIPS at E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v line 22
+restart -f
+run -all
+# ** Note: $stop    : E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v(22)
+#    Time: 500061 ps  Iteration: 0  Instance: /tb_MIPS
+# Break in Module tb_MIPS at E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v line 22
+add wave -position insertpoint  \
+{sim:/tb_MIPS/mips1/dp/register_file/Registers[2]}
+add wave -position insertpoint  \
+{sim:/tb_MIPS/mips1/dp/register_file/Registers[1]}
+add wave -position insertpoint  \
+{sim:/tb_MIPS/mips1/dp/register_file/Registers[5]}
+restart -f
+run -all
+# ** Note: $stop    : E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v(22)
+#    Time: 500061 ps  Iteration: 0  Instance: /tb_MIPS
+# Break in Module tb_MIPS at E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v line 22
+restart -f
+run -all
+# ** Note: $stop    : E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v(22)
+#    Time: 500061 ps  Iteration: 0  Instance: /tb_MIPS
+# Break in Module tb_MIPS at E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v line 22
+restart -f
+run -all
+# ** Note: $stop    : E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v(22)
+#    Time: 500061 ps  Iteration: 0  Instance: /tb_MIPS
+# Break in Module tb_MIPS at E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v line 22
+restart -f
+run -all
+# ** Note: $stop    : E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v(22)
+#    Time: 500061 ps  Iteration: 0  Instance: /tb_MIPS
+# Break in Module tb_MIPS at E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v line 22
+restart -f
+run -all
+# ** Note: $stop    : E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v(22)
+#    Time: 500061 ps  Iteration: 0  Instance: /tb_MIPS
+# Break in Module tb_MIPS at E:/Digital Shit/Computer Arch/CA 2/MIPS_TB.v line 22
+# End time: 16:37:20 on May 18,2022, Elapsed time: 2:55:38
+# Errors: 0, Warnings: 1
